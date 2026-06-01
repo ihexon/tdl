@@ -30,7 +30,7 @@ func appFlags() []cli.Flag {
 		&cli.DurationFlag{
 			Name:  FlagTimeout,
 			Usage: "upstream timeout, default 8s",
-			Value: 8 * time.Second,
+			Value: 4 * time.Second,
 		},
 		&cli.StringFlag{
 			Name:  FlagDownloadDir,
